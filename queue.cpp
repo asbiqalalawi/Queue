@@ -32,9 +32,8 @@ class Queue {
 		} 
 		cout <<endl;
 	}
-	
-	void add(int x) {
-		queue[size] = x;
+	void add(int data) {
+		queue[size] = data;
 		size++; 	
 	}
 	
